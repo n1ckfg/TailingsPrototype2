@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 0d828cbca6385154d885c573526e3c11,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -550,7 +551,7 @@ MonoBehaviour:
   FogTransitionSize: 5
   MaxLightDistance: 128
   AboveFogPercent: 1.58
-  Offset: {x: 20551.805, y: 20551.805, z: 0}
+  Offset: {x: 20555.816, y: 20555.816, z: 0}
 --- !u!1 &651777958
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +621,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5529,17 +5530,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 78b912fcb9ff4465bb587ab1ace800d3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2397.2405
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 78b912fcb9ff4465bb587ab1ace800d3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2397.2405
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 78b912fcb9ff4465bb587ab1ace800d3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2397.2405
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 78b912fcb9ff4465bb587ab1ace800d3,
         type: 3}
@@ -5849,7 +5850,7 @@ MonoBehaviour:
   - {fileID: 0}
   NoiseTexture3D: {fileID: 11700000, guid: ea166c3018822e44fb93eca537a773fc, type: 2}
   BlitMatrix:
-    e00: -8.414579
+    e00: -8.933066
     e01: 0
     e02: 0
     e03: -7.458009
@@ -5866,7 +5867,7 @@ MonoBehaviour:
     e32: 0
     e33: 1
   BlitMatrixMV:
-    e00: 8.414579
+    e00: 8.933066
     e01: 0
     e02: 0
     e03: 0
@@ -5886,7 +5887,7 @@ MonoBehaviour:
     e00: 10.345752
     e01: 0
     e02: 0
-    e03: -0.0000000032491698
+    e03: 0.00000036967594
     e10: 0
     e11: -1.0345752
     e12: 0
@@ -5899,7 +5900,7 @@ MonoBehaviour:
     e31: 0
     e32: 1.01
     e33: 0
-  BlitScale: {x: 8.414579, y: 0.5973123, z: 1.01}
+  BlitScale: {x: 8.933066, y: 0.5973123, z: 1.01}
   resolution: 1
   SampleCount: 8
   DirectionalSampleCount: 14
@@ -5946,10 +5947,10 @@ MonoBehaviour:
   MapToLDR: 0
   RemoveColorBanding: 1
   MatrixVP:
-    e00: -1.2295032
+    e00: -1.1581411
     e01: 0
     e02: 0
-    e03: -9.169645
+    e03: -8.637426
     e10: 0
     e11: -1.7320508
     e12: -0
@@ -5963,10 +5964,10 @@ MonoBehaviour:
     e32: -1
     e33: 7.60148
   LastMatrixVP:
-    e00: -1.2295032
+    e00: -1.1581411
     e01: 0
     e02: 0
-    e03: -9.169645
+    e03: -8.637426
     e10: 0
     e11: 1.7320508
     e12: 0
@@ -6202,7 +6203,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6292,7 +6293,7 @@ MonoBehaviour:
   FogTransitionSize: 5
   MaxLightDistance: 128
   AboveFogPercent: 1.58
-  Offset: {x: 20224.967, y: 20224.967, z: 0}
+  Offset: {x: 20228.979, y: 20228.979, z: 0}
 --- !u!1 &1884389473
 GameObject:
   m_ObjectHideFlags: 0
