@@ -12,7 +12,7 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 cd $DIR
 
-cd Assets/Plugins
+cd Assets
 wget "$BASE_URL/Plugins1.zip"
 unzip Plugins1.zip
 rm Plugins1.zip
