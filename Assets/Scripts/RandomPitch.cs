@@ -6,11 +6,11 @@ public class RandomPitch : MonoBehaviour
 {
 
     public float range = 0.2f;
-    public AudioSource audio;
+    public AudioSource audiosource;
 
     private void Start() {
         float newPitch = 1f + Random.Range(-range, range);
-        audio.pitch = newPitch;
+        audiosource.pitch = newPitch;
     }
 
 }
